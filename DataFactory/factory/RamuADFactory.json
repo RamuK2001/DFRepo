@@ -1,6 +1,12 @@
 {
 	"name": "RamuADFactory",
 	"properties": {
+		"globalParameters": {
+			"name": {
+				"type": "string",
+				"value": "DevOps"
+			}
+		},
 		"globalConfigurations": {
 			"PipelineBillingEnabled": "true"
 		}
