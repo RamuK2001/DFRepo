@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "RamuADFactory"
+		},
+		"AzureDatabricksLinkedService_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricksLinkedService_properties_typeProperties_existingClusterId": {
+			"value": "0120-115431-ogwa01lf"
+		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/ed99c131-036e-4866-ade1-53997fd31720/resourceGroups/RG1/providers/Microsoft.Storage/storageAccounts/ramusa1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
