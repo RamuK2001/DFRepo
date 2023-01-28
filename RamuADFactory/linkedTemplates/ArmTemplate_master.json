@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/ed99c131-036e-4866-ade1-53997fd31720/resourceGroups/RG1/providers/Microsoft.Storage/storageAccounts/ramusa1"
 		},
+		"default_properties_name_value": {
+			"type": "string",
+			"defaultValue": "DevOps"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -48,6 +52,9 @@
 					},
 					"AzureDatabricksLinkedService_accessToken": {
 						"value": "[parameters('AzureDatabricksLinkedService_accessToken')]"
+					},
+					"default_properties_name_value": {
+						"value": "[parameters('default_properties_name_value')]"
 					},
 					"AzureDatabricksLinkedService_properties_typeProperties_existingClusterId": {
 						"value": "[parameters('AzureDatabricksLinkedService_properties_typeProperties_existingClusterId')]"

@@ -13,6 +13,9 @@
 		},
 		"trigger2_properties_typeProperties_scope": {
 			"value": "/subscriptions/ed99c131-036e-4866-ade1-53997fd31720/resourceGroups/RG1/providers/Microsoft.Storage/storageAccounts/ramusa1"
+		},
+		"default_properties_name_value": {
+			"value": "DevOps"
 		}
 	}
 }
